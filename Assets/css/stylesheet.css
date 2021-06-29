@@ -1,0 +1,55 @@
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nopeBox {
+    position: relative;
+}
+
+#nope {
+    position: absolute;
+}
+
+/* From me */
+
+body {
+    margin: 0px;
+    background: linear-gradient(45deg, #0031ff, red);
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/2-gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.hey {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    text-justify: none;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 1cm;
+    color: #f6e58d;
+}
+
+.fas {
+    color: greenyellow;
+}
+
+p {
+    text-align: center;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 3cm;
+    color: #f6e58d;
+}
